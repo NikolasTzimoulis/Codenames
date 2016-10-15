@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
 <body>
-<p><div align='right'><a href='/account'>{{ !username }}</a></div></p>
+<p><div class='account''><a href='/account'>{{!username}}</a></div></p>
+<h2>Λέξεις</h2>
 <table>
 <tr>
-<td>{{ !word[0] }}</td>
-<td>{{ !word[1] }}</td>
-<td>{{ !word[2] }}</td>
-<td>{{ !word[3] }}</td>
-<td>{{ !word[4] }}</td>
+{{!word[0]}}
+{{!word[1]}}
+{{!word[2]}}
+{{!word[3]}}
+{{!word[4]}}
 </tr>
 <tr>
-<td>{{ !word[5] }}</td>
-<td>{{ !word[6] }}</td>
-<td>{{ !word[7] }}</td>
-<td>{{ !word[8] }}</td>
-<td>{{ !word[9] }}</td>
+{{!word[5]}}
+{{!word[6]}}
+{{!word[7]}}
+{{!word[8]}}
+{{!word[9]}}
 </tr>
 <tr>
-<td>{{ !word[10] }}</td>
-<td>{{ !word[11] }}</td>
-<td>{{ !word[12] }}</td>
-<td>{{ !word[13] }}</td>
-<td>{{ !word[14] }}</td>
+{{!word[10]}}
+{{!word[11]}}
+{{!word[12]}}
+{{!word[13]}}
+{{!word[14]}}
 </tr>
 <tr>
-<td>{{ !word[15] }}</td>
-<td>{{ !word[16] }}</td>
-<td>{{ !word[17] }}</td>
-<td>{{ !word[18] }}</td>
-<td>{{ !word[19] }}</td>
+{{!word[15]}}
+{{!word[16]}}
+{{!word[17]}}
+{{!word[18]}}
+{{!word[19]}}
 </tr>
 <tr>
-<td>{{ !word[20] }}</td>
-<td>{{ !word[21] }}</td>
-<td>{{ !word[22] }}</td>
-<td>{{ !word[23] }}</td>
-<td>{{ !word[24] }}</td>
+{{!word[20]}}
+{{!word[21]}}
+{{!word[22]}}
+{{!word[23]}}
+{{!word[24]}}
 </tr>
 </table>
+<h2>Παίκτες</h2>
+<p>{{!players}}</p>
+{{!gameoverscreen}}
 </body>
 </html>

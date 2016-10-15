@@ -1,0 +1,73 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+tr, td {
+	height: 50px;
+	border: 1px solid whitesmoke;
+}
+
+.blueplayer {
+	color: blue;
+}
+
+.redplayer {
+	color: red;
+}
+
+.spymaster {
+	font-weight: 900;
+  	border: 1px solid gray;
+	background-color: whitesmoke;
+	
+}
+
+.hidden {
+
+}
+
+.hidden-blue {
+	color: blue;
+}
+
+.hidden-red {
+	color: red;
+}
+
+.hidden-black {
+	font-weight: 900;
+	text-decoration: line-through;
+}
+
+.hidden-gray {
+	color: gray;
+}
+
+.revealed-blue {
+	background-color: blue;
+}
+
+.revealed-red {
+	background-color: red;
+}
+
+.revealed-black {
+	background-color: black;
+}
+
+.revealed-gray {
+	background-color: gray;
+}
+
+.account {
+	text-align: right;
+	text-decoration: underline;
+}
